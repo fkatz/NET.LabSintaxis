@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LabSintaxis2
+namespace LabSintaxis2_1
 {
     class Program
     {

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A9445CE5-FCEC-4207-BFCA-573DD53F94C1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LabSintaxis2</RootNamespace>
-    <AssemblyName>LabSintaxis2</AssemblyName>
+    <RootNamespace>LabSintaxis2_1</RootNamespace>
+    <AssemblyName>LabSintaxis2_1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

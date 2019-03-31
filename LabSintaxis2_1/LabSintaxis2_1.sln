@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabSintaxis2", "LabSintaxis2\LabSintaxis2.csproj", "{A9445CE5-FCEC-4207-BFCA-573DD53F94C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabSintaxis2_1", "LabSintaxis2_1\LabSintaxis2_1.csproj", "{A9445CE5-FCEC-4207-BFCA-573DD53F94C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
