@@ -21,6 +21,7 @@ namespace LabSintaxis4_5
             meses.Add(10, "octubre");
             meses.Add(11, "noviembre");
             meses.Add(12, "diciembre");
+            Console.WriteLine("Ingrese mes:");
             String mes = Console.ReadLine();
             foreach (KeyValuePair<int, string> i in meses)
             {
