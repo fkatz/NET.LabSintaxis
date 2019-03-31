@@ -12,10 +12,11 @@ namespace LabSintaxis4_3
             for(int i=0; i<limit; i++) {
                 aux = a;
                 a = b; 
-                b = auxiliar + a; 
+                b = aux + a; 
                 sum+=a;
             }
             Console.WriteLine("La suma es: "+sum);
+            Console.ReadKey();
         }
     }
 }
