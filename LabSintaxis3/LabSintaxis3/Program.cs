@@ -20,6 +20,7 @@ namespace LabSintaxis3
             {
                 Console.WriteLine(arraicito[i]);
             }
+            Console.ReadKey();
         }
     }
 }
