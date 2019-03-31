@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections;
 
 namespace LabSintaxis4_5
 {
@@ -7,32 +7,28 @@ namespace LabSintaxis4_5
     {
         static void Main(string[] args)
         {
-            bool found = false;
-            Dictionary<int, string> meses = new Dictionary<int, string>();
-            meses.Add(1, "enero");
-            meses.Add(2, "febrero");
-            meses.Add(3, "marzo");
-            meses.Add(4, "abril");
-            meses.Add(5, "mayo");
-            meses.Add(6, "junio");
-            meses.Add(7, "julio");
-            meses.Add(8, "agosto");
-            meses.Add(9, "septiembre");
-            meses.Add(10, "octubre");
-            meses.Add(11, "noviembre");
-            meses.Add(12, "diciembre");
-            Console.WriteLine("Ingrese mes:");
-            String mes = Console.ReadLine();
-            foreach (KeyValuePair<int, string> i in meses)
+            Hashtable meses = new Hashtable()
             {
-                if (i.Value == mes.ToLower())
-                {
-                    Console.WriteLine(mes + " " + i.Key);
-                    found = true;
-                    break;
-                }
+                {"enero", 1},
+                {"febrero", 2},
+                {"marzo", 3},
+                {"abril", 4},
+                {"mayo", 5},
+                {"junio", 6},
+                {"julio", 7},
+                {"agosto", 8},
+                {"septiembre", 9},
+                {"octubre", 10},
+                {"noviembre", 11},
+                {"diciembre", 12}
+            };
+            Console.Write("Ingrese mes: ");
+            string mes = Console.ReadLine().ToLower();
+            if (meses.Contains(mes))
+            {
+                Console.WriteLine(mes + " " + meses[mes]);
             }
-            if (!found) Console.WriteLine("El mes ingresado no es valido.");
+            else Console.WriteLine("Mes inválido");
             Console.ReadKey();
         }
     }
