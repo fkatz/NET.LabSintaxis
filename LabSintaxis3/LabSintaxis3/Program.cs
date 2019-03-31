@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LabSintaxis3
 {
@@ -11,7 +7,8 @@ namespace LabSintaxis3
         static void Main(string[] args)
         {
             int cantIteraciones = 5;
-            String[] arraicito = new String[cantIteraciones];
+            string[] arraicito = new string[cantIteraciones];
+            Console.WriteLine("Ingrese "+cantIteraciones+" líneas de texto: ");
             for(int i = 0; i < cantIteraciones; i++)
             {
                 arraicito[i] = Console.ReadLine();

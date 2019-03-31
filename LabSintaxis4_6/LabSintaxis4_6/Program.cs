@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LabSintaxis4_6
 {
@@ -10,16 +6,13 @@ namespace LabSintaxis4_6
     {
         static void Main(string[] args)
         {
-            while (true)
+            Console.Write("Ingrese número: ");
+            int num = Int32.Parse(Console.ReadLine());
+            if (num < 5000 && num > 0)
             {
-                Console.Write("Ingrese número: ");
-                int num = Int32.Parse(Console.ReadLine());
-                if (num < 5000 && num > 0)
-                {
-                    Console.WriteLine("En romano: " + ToRoman(num));
-                }
-                else Console.WriteLine("El número debe estar entre 1 y 4999");
+                Console.WriteLine("En romano: " + ToRoman(num));
             }
+            else Console.WriteLine("El número debe estar entre 1 y 4999");
         }
         static string ToRoman(int n)
         {
